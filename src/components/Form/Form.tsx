@@ -1,8 +1,6 @@
 import styles from './Form.module.css';
 
-interface FormProps { hideForm: boolean }
-
-function Form({ hideForm }: FormProps ) {
+function Form({hideForm}) {
   return (
     <>
       <div className={styles.modalOverlay}>
