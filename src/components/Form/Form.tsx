@@ -1,6 +1,10 @@
 import styles from './Form.module.css';
 
-function Form({hideForm}) {
+interface FormProps {
+  hideForm: () => boolean;
+}
+
+function Form({ hideForm }: FormProps) {
   return (
     <>
       <div className={styles.modalOverlay}>
@@ -19,7 +23,7 @@ function Form({hideForm}) {
         </form>
       </div>
     </>
-  )
+  );
 }
 
 export default Form;
