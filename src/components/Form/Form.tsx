@@ -1,7 +1,7 @@
 import styles from './Form.module.css';
 
 interface FormProps {
-  hideForm: () => boolean;
+  hideForm: () => void;
 }
 
 function Form({ hideForm }: FormProps) {
