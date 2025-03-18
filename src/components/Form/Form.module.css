@@ -1,0 +1,33 @@
+.modalOverlay {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.719);
+
+    .modalFormContent {
+        color: black;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 32px;
+        background-color: white;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .modalFormHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modalFormBody {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.display-none {
+    display: none;
+}

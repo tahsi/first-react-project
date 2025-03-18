@@ -1,0 +1,27 @@
+.fishItemsSection {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .fishItemsSectionTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+}
+
+.fishItemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .fishItem {
+        width: 250px;
+        height: 300px;
+
+        .fishItemImage > img {
+            max-width: 100%;
+        }
+    }
+}
